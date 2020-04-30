@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TO-DO Assessment.</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+</head>
+<body>
+	<div class="container">
+		<div class="container_in">
+			<div id="success_message"></div>
+			<h1>The List</h1>
+			<table class="table data-table">
+				<thead>
+				</thead>
+				<tbody>
+					<tr data-model="Tesla" data-number="24000">
+						<td class="input-edit"><input type='text' name='edit_model' value='Tesla'></td>
+						<td class="input-edit"><input type='number' name='edit_number' value='24000'></td>
+						<td><button class="btn btn-update">Update</button><button class="btn btn-delete">Delete</button></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<h1>The Form</h1>
+			<form>
+				<div class="form-group">
+					<label>Model:</label>
+					<input type="text" name="model" value="" required="">
+				</div>
+				<div class="form-group">
+					<label>Price:</label>
+					<input type="number" name="number" value="" required="">
+				</div>
+				<button type="submit" class="btn">Add</button>
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
