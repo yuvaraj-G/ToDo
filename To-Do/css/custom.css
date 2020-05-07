@@ -15,7 +15,8 @@ td.input-edit {position: relative; z-index: 0; cursor: pointer; }
 td.input-edit:before {content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1; }
 td:last-child {padding-right: 0; }
 td {padding-right: 30px; }
-td .btn:first-child {margin-right: 15px; }
+td .btn:first-child {margin-left: 0; }
+td .btn {margin-left: 15px; }
 tr {border: 1px solid #c5c5c5; border-bottom: 0; display: block; padding: 10px 15px; }
 tr:last-child {border-bottom: 1px solid #c5c5c5; }
 .container_in table {margin-bottom: 50px; }
@@ -27,6 +28,9 @@ button.btn.btn-update {background: #24af4c; }
 button.btn.btn-update:hover {background: #016b01; }
 button.btn.btn-delete {background: #f00; }
 button.btn.btn-delete:hover {background: #c50000; }
+.btn.btn-reset {background: #9E9E9E;}
+.btn.btn-reset:hover {background: #737373;}
+
 
 @media(max-width: 991px){
 	.container_in{ min-width: auto; max-width: 90%; width: 100%; }
